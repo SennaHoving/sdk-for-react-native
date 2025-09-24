@@ -33,7 +33,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "expo-file-system": "18.*.*",
+    "expo-file-system": "19.0.15",
     "react-native": ">=0.76.7 <1.0.0"
   },
   "peerDependencies": {
