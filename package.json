@@ -22,7 +22,8 @@
   "scripts": {
     "build": "npm run build:types && npm run build:libs",
     "build:types": "tsc --declaration --emitDeclarationOnly --outDir types",
-    "build:libs": "rollup -c"
+    "build:libs": "rollup -c",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "8.3.2",
